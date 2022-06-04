@@ -1,0 +1,40 @@
+.newsletter {
+  background-color: rgb(246, 139, 30);
+  height:290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Mulish';
+  color: white;
+  margin-top: 20px;
+}
+
+.subscribe {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.offers {
+  margin-bottom: 30px;
+}
+
+.newsletter input {
+  height: 60px;
+  width: 230px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.newsletter button {
+  height: 65px;
+  width: 285px;
+  margin-right: 10px;
+  color: white;
+  background-color: rgb(48, 44, 44);
+  border: none;
+}
+
+.random {
+  margin-bottom: 25px;
+}

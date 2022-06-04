@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  height: 800px;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.left-section {
+  width: fit-content;
+  margin-left: 80px;
+}
+
+.right-section {
+  margin-right: 80px;
+  width: 410px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  font-family: 'Mulish';
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.help {
+  margin-left: 15px;
+}
+
+.profile-placeholder {
+  display: flex;
+  height: 30px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.jumiafood-logo {
+  width: 210px;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,40 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 25px;
+  column-gap: 25px;
+  margin-left: 100px;
+  margin-right: 200px;
+  margin-top: 20px;
+  width: 735px;
+
+}
+
+.first {
+  width: 165px;
+  border: none;
+  border-color: rgb(222, 219, 219);
+  box-shadow: 0 0 5px rgba(211, 211, 211, 0.71);
+}
+
+.grid-content {
+  margin: 15px;
+}
+
+.grid-image {
+  width: 50px;
+}
+
+.grid-title {
+  font-family: 'Mulish';
+  color: rgb(255, 166, 0);
+  font-weight: bold;
+  margin-top: 3px;
+  margin-bottom: 4px;
+}
+
+.grid-text {
+  font-size: 12px;
+  font-family: 'Mulish';
+  line-height: 18px;
+}
