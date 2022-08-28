@@ -1,3 +1,4 @@
+@media screen and (min-width: 1024px){
 .order-title {
   display: flex;
   font-size: 40px;
@@ -80,3 +81,4 @@
   font-family: 'Mulish';
 }
 
+}
