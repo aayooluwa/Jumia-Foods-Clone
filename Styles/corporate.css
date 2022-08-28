@@ -1,3 +1,4 @@
+@media screen and (min-width: 1024px){
 .corporate {
   display: flex;
   margin-top: 40px;
@@ -32,4 +33,5 @@
   text-align: center;
   z-index: 200;
   
+}
 }
