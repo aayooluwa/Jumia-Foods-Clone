@@ -1,3 +1,4 @@
+@media screen and (min-width: 1024px){
 .first-section {
   display: flex;
   margin-top: 60px;
@@ -56,4 +57,6 @@
 
 .right-splash {
  width: 300px;
+}
+  
 }
