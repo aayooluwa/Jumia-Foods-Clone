@@ -1,8 +1,12 @@
+body {
+  overflow-x: hidden;
+}
+
 @media screen and (min-width: 1024px){
+
 body {
   margin: 0;
   height: 800px;
-  
 }
 
 .header {
@@ -15,6 +19,7 @@ body {
   right: 0;
   left: 0;
   top: 0;
+  box-shadow: 0 2px 16px 0 rgb(0 0 0 / 8%);
   z-index: 1000;
 }
 
@@ -25,7 +30,7 @@ body {
 
 .right-section {
   margin-right: 80px;
-  width: 410px;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between; 
@@ -51,13 +56,191 @@ body {
   justify-content: center;
 }
 
-}
-
 .jumiafood-logo {
   width: 210px;
+}
+
+.jumiafood-logo:hover {
+  cursor: pointer;
+}
+
+.right-section div:hover{
+  cursor: pointer;
 }
 
 .username {
   display: flex;
   align-items: center;
+}
+
+.jumia-food-mobile {
+  display: none;
+}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1410px){
+  body {
+    margin: 0;
+    height: 800px;
+    
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    box-shadow: 0 2px 16px 0 rgb(0 0 0 / 8%);
+    z-index: 1000;
+  }
+  
+  .left-section {
+    width: fit-content;
+    margin-left: 80px;
+  }
+  
+  .right-section {
+    margin-right: 80px;
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    font-family: 'Mulish';
+    align-items: center;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+  }
+  
+  .help {
+    margin-left: 15px;
+  }
+  
+  .profile-placeholder {
+    display: flex;
+    height: 30px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .jumiafood-logo {
+    width: 210px;
+  }
+  
+  .jumiafood-logo:hover {
+    cursor: pointer;
+  }
+  
+  .right-section div:hover{
+    cursor: pointer;
+  }
+  
+  .username {
+    display: flex;
+    align-items: center;
+  }
+  
+  .jumia-food-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 730px) and (max-width: 1024px){
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 16px 0 rgb(0 0 0 / 8%);
+    width: 100%;
+  }
+
+  .right-section{
+    display: none;
+  }
+
+  .jumiafood-logo {
+    display: none;
+  }
+
+  .hamburger-mobiles {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 16px 0 rgb(0 0 0 / 8%);
+  }
+
+  .right-section{
+    display: none;
+  }
+
+  .jumiafood-logo {
+    display: none;
+  }
+
+  .hamburger-mobile {
+    display: flex;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 16px 0 rgb(0 0 0 / 8%);
+    width: 100%;
+  }
+
+  .right-section{
+    display: none;
+  }
+
+  .jumiafood-logo {
+    display: none;
+  }
+
+  .hamburger-mobiles {
+    display: flex;
+  }
 }
