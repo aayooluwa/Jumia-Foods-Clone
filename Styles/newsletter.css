@@ -167,7 +167,7 @@
   }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 730px){
   .newsletter{
     background-color: rgb(246, 139, 30);
     height:fit-content;

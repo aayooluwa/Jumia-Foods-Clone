@@ -251,7 +251,7 @@
   }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 730px){
   .order-title {
     display: flex;
     font-size: 40px;

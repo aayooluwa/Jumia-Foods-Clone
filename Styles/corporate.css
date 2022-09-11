@@ -118,7 +118,7 @@
   }
 }
 
-@media screen and  (max-width: 350px){
+@media screen and  (max-width: 730px){
   .corporate-image {
     display: none;
   }
