@@ -35,3 +35,128 @@
   
 }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1410px){
+  .corporate {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .corporate-image {
+    margin-left: -200px;
+  }
+  
+  .corporate-text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+  }
+  
+  .corporate-text1 {
+    font-family: 'Mulish';
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .corporate-text2 {
+    font-family: 'Mulish';
+    font-size: 20px;
+    width: 410px;
+    line-height: 30px;
+    text-align: center;
+    z-index: 200;
+    
+  }
+}
+
+
+@media screen and (min-width: 730px) and (max-width: 1030px){
+  .corporate-image {
+    display: none;
+  }
+
+  .corporate {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+
+  }
+  
+  
+  
+  .corporate-text {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .corporate-text1 {
+    font-family: 'Mulish';
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .corporate-text2 {
+    font-family: 'Mulish';
+    font-size: 20px;
+    width: fit-content;
+    line-height: 30px;
+    text-align: center;
+    z-index: 200;
+    padding: 0px 20px; 
+  }
+}
+
+@media screen and  (max-width: 350px){
+  .corporate-image {
+    display: none;
+  }
+
+  .corporate {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+
+  }
+  
+  
+  
+  .corporate-text {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .corporate-text1 {
+    font-family: 'Mulish';
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .corporate-text2 {
+    font-family: 'Mulish';
+    font-size: 20px;
+    width: fit-content;
+    line-height: 30px;
+    text-align: center;
+    z-index: 200;
+    padding: 0px 20px; 
+  }
+}
+

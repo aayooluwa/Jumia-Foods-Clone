@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1408px){
 .newsletter {
   background-color: rgb(246, 139, 30);
   height:290px;
@@ -39,4 +39,209 @@
 .random {
   margin-bottom: 25px;
 }
+
+.newsletter button:hover {
+  background-color: rgb(57, 52, 52);
+  cursor: pointer;
 }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1410px){
+
+  .newsletter-content {
+    background-color: rgb(246, 139, 30);
+    height:290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish';
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .subscribe {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .offers {
+    margin-bottom: 30px;
+  }
+  
+  .newsletter input {
+    height: 60px;
+    width: 230px;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .newsletter button {
+    height: 65px;
+    width: 285px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(48, 44, 44);
+    border: none;
+  }
+  
+  .random {
+    margin-bottom: 25px;
+  }
+
+  .newsletter button:hover {
+    background-color: rgb(57, 52, 52);
+    cursor: pointer;
+  }
+  
+}
+
+@media screen and (min-width: 730px) and (max-width: 1030px){
+  .newsletter{
+    background-color: rgb(246, 139, 30);
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish';
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .newsletter-content {
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .subscribe {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    width: 400px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .offers {
+    margin-bottom: 30px;
+    display: none;
+  }
+  
+  .newsletter input {
+    height: 55px;
+    width: 100%;
+    margin: 5px;
+    padding-left: 10px;
+    border: none;
+  }
+  
+  .newsletter button {
+    height: 55px;
+    width: 412px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(48, 44, 44);
+    border: none;
+  }
+  
+  .random {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .terms {
+    margin-top: -120px;
+    margin-bottom: 120px;
+  }
+
+  .newsletter button:hover {
+    background-color: rgb(57, 52, 52);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .newsletter{
+    background-color: rgb(246, 139, 30);
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish';
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .newsletter-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  
+  .subscribe {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 25px;
+  }
+  
+  .offers {
+    margin-bottom: 30px;
+    display: none;
+  }
+  
+  .newsletter input {
+    height: 55px;
+    width: 90%;
+    margin: 5px;
+    padding-left: 10px;
+    border: none;
+  }
+  
+  .newsletter button {
+    height: 55px;
+    width: 412px;
+    margin-top: 90px;
+    color: white;
+    background-color: rgb(48, 44, 44);
+    border: none;
+  }
+  
+  .random {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .terms {
+    margin-top: -150px;
+    margin-bottom: 120px;
+  }
+
+  .newsletter button:hover {
+    height: 55px;
+    width: 412px;
+    margin-top: 90px;
+    color: white;
+    background-color: rgb(57, 52, 52);
+    border: none;
+    cursor: pointer;
+  }
+}
+

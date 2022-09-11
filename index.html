@@ -1,64 +1,116 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="Styles/header.css">
-    <link rel="stylesheet" href="Styles/body.css">
-    <link rel="stylesheet" href="Styles/grid.css">
-    <link rel="stylesheet" href="Styles/orders.css">
-    <link rel="stylesheet" href="Styles/newsletter.css">
-    <link rel="stylesheet" href="Styles/corporate.css">
-    <link rel="stylesheet" href="Styles/order-food.css">
-    <link rel="stylesheet" href="Styles/miscellaneous.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/header.css" />
+    <link rel="stylesheet" href="Styles/first-section.css" />
+    <link rel="stylesheet" href="Styles/recent-orders.css" />
+    <link rel="stylesheet" href="Styles/newsletter.css" />
+    <link rel="stylesheet" href="Styles/corporate.css" />
+    <link rel="stylesheet" href="Styles/order-food.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    /> -->
   </head>
 
   <body>
-    
-    
-    <div class="header">
+    <!-- NAV BAR-->
+    <nav class="header">
       <div class="left-section">
-        <img class="jumiafood-logo" src="Image Assets/jumiafood-logo.svg" alt="">
+        <img
+          class="jumiafood-logo"
+          src="Image Assets/jumiafood-logo.svg"
+          alt=""
+        />
+        <div class="hamburger-mobile">
+          <!-- <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a> -->
+          <img
+            class="jumia-food-mobile"
+            src="Image Assets/jumia-food-mobile.svg"
+            alt=""
+          />
+        </div>
       </div>
       <div class="right-section">
-        <div>
-           ENGLISH
-        </div>
-        <div class="help">
-          HELP
-        </div>
+        <div>ENGLISH</div>
+        <div class="help">HELP</div>
         <div class="profile">
           <div>
-            <img class="profile-placeholder" src="Image Assets/placeholder-user-avatar.svg" alt="">
+            <img
+              class="profile-placeholder"
+              src="Image Assets/placeholder-user-avatar.svg"
+              alt=""
+            />
           </div>
-          <div class="username"> 
-            Ayooluwa Akinola
-          </div>
+          <div class="username">Ayooluwa Akinola</div>
         </div>
       </div>
-    </div>
-    
-    <div class="first-section">
-      <div><img class="left-splash" src="Image Assets/jumiafood-homepage-left-splash-services.png" alt=""></div>
-      <div class="middle-section">
+    </nav>
+
+    <!-- SECTION 1 -->
+    <section class="first-section row">
+      <div class="column1">
+        <img
+          class="left-splash"
+          src="Image Assets/jumiafood-homepage-left-splash-services.png"
+          alt=""
+        />
+      </div>
+
+      <div class="column2 middle-section">
         <div class="title">Everything you need, delivered now</div>
+
         <div class="location">
-          <img src="Image Assets/icon-location-on-map-no-shadow.svg" alt="">
-          <div> Delivering to <span>36 Oyo Road</span></div>
+          <img src="Image Assets/icon-location-on-map-no-shadow.svg" alt="" />
+          <div>Delivering to <span>36 Oyo Road</span></div>
         </div>
+
         <div class="service">Choose a service</div>
+
         <div class="grid">
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/968e035ad0.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/968e035ad0.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Restaurants</div>
-              <div class="grid-text">Food you love, from restaurants near you</div>
+              <div class="grid-text">
+                Food you love, from restaurants near you
+              </div>
             </div>
           </div>
 
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/a5be65256f.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/a5be65256f.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Coca-cola Offers</div>
               <div class="grid-text">Treat night with Coca-cola</div>
             </div>
@@ -66,31 +118,61 @@
 
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/5eb3d1697a.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/5eb3d1697a.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Dinner</div>
-              <div class="grid-text">Quality dinner from the top rated restaurants...</div>
+              <div class="grid-text">
+                Quality dinner from the top rated restaurants...
+              </div>
             </div>
           </div>
 
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/986ddd6d65.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/986ddd6d65.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Supermarket</div>
-              <div class="grid-text">Fresh groceries and everyday essentials</div>
+              <div class="grid-text">
+                Fresh groceries and everyday essentials
+              </div>
             </div>
           </div>
 
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/f5e52b6988.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/f5e52b6988.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Party</div>
-              <div class="grid-text">Alcoholic drinks and more to get your part...</div>
+              <div class="grid-text">
+                Alcoholic drinks and more to get your part...
+              </div>
             </div>
           </div>
 
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/bc1364c018.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/bc1364c018.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Mr Biggs</div>
               <div class="grid-text">Always Good</div>
             </div>
@@ -98,7 +180,13 @@
 
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/1dac0f46dd.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/1dac0f46dd.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Ying Yanag Expre...</div>
               <div class="grid-text">Shared moments. Great Value</div>
             </div>
@@ -106,7 +194,13 @@
 
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/6a1b03cf6a.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/6a1b03cf6a.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Scoop'd Ice Cr...</div>
               <div class="grid-text">Never Settle for One Scoop</div>
             </div>
@@ -114,7 +208,13 @@
 
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/e3b5e7520d.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/e3b5e7520d.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Indomie Cafe</div>
               <div class="grid-text">Enjoy your Indomie, your own way</div>
             </div>
@@ -122,15 +222,29 @@
 
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/133b18526a.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/133b18526a.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Bukka Hut</div>
-              <div class="grid-text">Restaurant of Choice for lovers of Nigeria...</div>
+              <div class="grid-text">
+                Restaurant of Choice for lovers of Nigeria...
+              </div>
             </div>
           </div>
 
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/bc1364c018.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/bc1364c018.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Tantalizers</div>
               <div class="grid-text">...every bite, a promise kept</div>
             </div>
@@ -138,203 +252,283 @@
 
           <div class="first">
             <div class="grid-content">
-              <div><img class="grid-image" src="Image Assets/80aca739c7.png" alt=""></div>
+              <div>
+                <img
+                  class="grid-image"
+                  src="Image Assets/80aca739c7.png"
+                  alt=""
+                />
+              </div>
               <div class="grid-title">Burger King</div>
               <div class="grid-text">Have it your way</div>
             </div>
           </div>
-
-        </div>
-      </div>
-      <div><img class="right-splash" src="Image Assets/jumiafood-homepage-right-splash-services.jpg" alt=""></div>
-    </div>
-
-    <div class="order-title">
-      Recent orders
-    </div>
-
-    <div class="order-history">
-      <div class="orders">
-        <div class="orders-left-side">
-          <div><img class="no_pic_logo" src="Image Assets/no_pic_logo.png" alt=""></div>
-          <div><button>REPEAT ORDER</button></div>
-        </div>
-        <div>
-          <div class="restaurant"> Chicken Republic - Bodija</div>
-          <div class="order-list">
-            <div>1 x Refuel Spicy Rice Meal</div>
-            <div>₦900.00</div> 
-          </div>
-  
-          <div class="order-list">
-            <div>1 x Refuel Rice & Beans Meal</div>
-            <div>₦1000.00</div> 
-          </div>
-  
-          <div class="order-list">
-            <div>1 x NEW Dodo Cubes</div>
-            <div>₦350.00</div> 
-          </div>
-  
-          <div class="Total">
-            <div>Total (incl. VAT)</div>
-            <div>₦2,550.00</div> 
-          </div>
-          
         </div>
       </div>
 
-      <div class="orders">
-        <div class="orders-left-side">
-          <div><img class="no_pic_logo" src="Image Assets/no_pic_logo.png" alt=""></div>
-          <div><button>REPEAT ORDER</button></div>
+      <div class="column3">
+        <img
+          class="right-splash"
+          src="Image Assets/jumiafood-homepage-right-splash-services.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- RECENT ORDERS -->
+    <section>
+      <div class="order-title">Recent orders</div>
+
+      <div class="order-history">
+        <div class="orders">
+          <div class="orders-left-side">
+            <div>
+              <img
+                class="no_pic_logo"
+                src="Image Assets/no_pic_logo.png"
+                alt=""
+              />
+            </div>
+            <div><button>REPEAT ORDER</button></div>
+          </div>
+
+          <div>
+            <div class="restaurant">Chicken Republic - Bodija</div>
+            <div class="order-list">
+              <div>1 x Refuel Spicy Rice Meal</div>
+              <div>₦900.00</div>
+            </div>
+
+            <div class="order-list">
+              <div>1 x Refuel Rice & Beans Meal</div>
+              <div>₦1000.00</div>
+            </div>
+
+            <div class="order-list">
+              <div>1 x NEW Dodo Cubes</div>
+              <div>₦350.00</div>
+            </div>
+
+            <div class="Total">
+              <div>Total (incl. VAT)</div>
+              <div>₦2,550.00</div>
+            </div>
+          </div>
         </div>
-        <div>
-          <div class="restaurant"> Chicken Republic - Bodija</div>
-          <div class="order-list">
-            <div>1 x Refuel Spicy Rice Meal</div>
-            <div>₦900.00</div> 
+
+        <div class="orders">
+          <div class="orders-left-side">
+            <div>
+              <img
+                class="no_pic_logo"
+                src="Image Assets/no_pic_logo.png"
+                alt=""
+              />
+            </div>
+            <div><button>REPEAT ORDER</button></div>
           </div>
-  
-          <div class="order-list">
-            <div>1 x Refuel Rice & Beans Meal</div>
-            <div>₦1000.00</div> 
+          <div>
+            <div class="restaurant">Chicken Republic - Bodija</div>
+            <div class="order-list">
+              <div>1 x Refuel Spicy Rice Meal</div>
+              <div>₦900.00</div>
+            </div>
+
+            <div class="order-list">
+              <div>1 x Refuel Rice & Beans Meal</div>
+              <div>₦1000.00</div>
+            </div>
+
+            <div class="order-list">
+              <div>1 x NEW Dodo Cubes</div>
+              <div>₦350.00</div>
+            </div>
+
+            <div class="Total">
+              <div>Total (incl. VAT)</div>
+              <div>₦2,550.00</div>
+            </div>
           </div>
-  
-          <div class="order-list">
-            <div>1 x NEW Dodo Cubes</div>
-            <div>₦350.00</div> 
-          </div>
-  
-          <div class="Total">
-            <div>Total (incl. VAT)</div>
-            <div>₦2,550.00</div> 
-          </div>
-          
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="newsletter">
-      <div class="subscribe">Subscribe to our newsletter today!</div>
-      <div class="offers">Don't miss out on our great offers & Receive deals from all our top vendors via e-mail</div>
-      <div class="random"><input type="text" name="" id="" placeholder="Select your city"><input type="" name="" id="" placeholder="E-mail"><button>SUBSCRIBE NEWSLETTER</button></div>
-      <div>I have read and accepted the Terms and conditions and the Privacy policy</div> 
-    </div>
-
-    <div class="corporate">
-      <div class="corporate-image-container">
-        <img class="corporate-image" src="Image Assets/jumia-for-corporate.jpg" alt="">
-      </div>
-      <div class="corporate-text">
-        <div class="corporate-text1">Jumia Food for Corporate</div>
-        <div class="corporate-text2">Order lunch, fuel for meetings or late-night deliveries to the office. Your favorite vendors coming to a desk near you</div>
-      </div>
-    </div>
-
-    <div class="order-food"> 
-      <div class="order-food-text">
-        <div class="order-food-text1">Order food</div>
-        <div class="order-food-text2">The Jumia Food app makes it simple for anybody to use a mobile device to look over the menu of the best vendors and place an order for home delivery.</div>
-        <div>
-          <button> <img src="Image Assets/apple.svg" alt=""></button>
-          <button> <img src="Image Assets/android.svg" alt=""></button>
+    <!--  NEWSLETTER -->
+    <section>
+      <div class="newsletter">
+        <div class="newsletter-content">
+          <div class="subscribe">Subscribe to our newsletter today!</div>
+          <div class="offers">
+            Don't miss out on our great offers & Receive deals from all our top
+            vendors via e-mail
+          </div>
+          <div class="random">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Select your city"
+            /><input type="" name="" id="" placeholder="E-mail" /><button>
+              SUBSCRIBE NEWSLETTER
+            </button>
+          </div>
+          <div class="terms">
+            I have read and accepted the Terms and conditions and the Privacy
+            policy
+          </div>
         </div>
       </div>
-      <div><img class="food-app-mockup" src="Image Assets/jumia-food-app-mockup.png" alt=""></div>
-    </div>
+    </section>
 
-    <div class="footer">
-      <div class="footer-list">
-        <ul style="list-style: none; color: white;">
-          <li>City</li>
-          <li>Lagos</li>
-          <li>Abuja</li>
-          <li>Ibadan</li>
-          <li>Port Harcourt</li>
-          <li>Lekki Phase 1</li>
-          <li>Victoria Island</li>
-          <li>Yaba</li>
-          <li>Marina</li>
-          <li>Wuse II</li>
-          <li>Maitama</li>
-          <li>Ikoyi - Dolphin Estate</li>
-          <li>Supermarket Online</li>
-          <li>Pharmacy Online</li>
-          <li>Shopping Online</li>
-        </ul>
-        <ul style="list-style: none; color: white;">
-          <li>Cuisines</li>
-          <li>Burgers in Lagos</li>
-          <li>Pizza in Lagos</li>
-          <li>Nigerian Food in Lagos</li>
-          <li>African food in Lagos</li>
-          <li>Chinese Food in Lagos</li>
-          <li>Indian Food  in Lagos</li>
-          <li>American Food in Lagos</li>
-          <li>Seafood in Lagos</li>
-          <li>Breakfast Menu in Lagos</li>
-          <li>Cakes in Lagos</li>
-          <li>Sandwiches in Lagos</li>
-          <li>Salads in Lagos</li>
-          <li>Pasta in Lagos</li>
-          <li>African Food in Abuja</li>
-          <li>Sandwiches in Abuja</li>
-          <li>Salads in Abuja</li>
-          <li>Nigerian Food in Abuja</li>
-        </ul>
-        <ul style="list-style: none; color: white;">
-          <li>Popular vendors</li>
-          <li>Shiro</li>
-          <li>Bambo Lounge</li>
-          <li>Cilantro Delivery</li>
-          <li>Bungalow Restaurant</li>
-          <li>Chicken Capitol</li>
-          <li>Chicken Republic</li>
-          <li>Casper & Gambini's</li>
-          <li>Johnny Rockets</li>
-          <li>Drumstix</li>
-          <li>Seven Eagles Spur</li>
-          <li>Hard Rock Cafe</li>
-          <li>Eric Kayser</li>
-          <li>Kohinoor Lounge</li>
-          <li>Krispy Kreme Doughnuts & Coffee</li>
-          <li>Crepaway</li>
-          <li>Debonairs Pizza</li>
-          <li>KFC delivery</li>
-          <li>The Place</li>
-          <li>Bukka Hut</li>
-          <li>Pizza Hut</li>
-          <li>Cold Stone Creamery</li>
-          <li>Rhapsody's</li>
-          <li>Spice Route</li>
-          <li>355 Restaurant & Louge Landmark</li>
-          <li>China wok</li>
-          <li>Terra Kulture</li>
-          <li>All restaurants near me</li>
-        </ul>
-        <ul style="list-style: none; color: white;">
-          <li>Jumia Food</li>
-          <li>About</li>
-          <li>Press</li>
-          <li>Contact</li>
-          <li>Terms and conditions</li>
-          <li>Privacy Policy</li>
-          <li>Jumia Food Prime - Unlimited Free Delivery</li>
-          <li>Become a rider!</li>
-          <li>Sell on Jumia Food</li>
-          <li>vendors</li>
-        </ul>
+    <!-- CORPORATE -->
+    <section>
+      <div class="corporate">
+        <div class="corporate-image-container">
+          <img
+            class="corporate-image"
+            src="Image Assets/jumia-for-corporate.jpg"
+            alt=""
+          />
+        </div>
+        <div class="corporate-text">
+          <div class="corporate-text1">Jumia Food for Corporate</div>
+          <div class="corporate-text2">
+            Order lunch, fuel for meetings or late-night deliveries to the
+            office. Your favorite vendors coming to a desk near you
+          </div>
+        </div>
       </div>
-      <div style="display: flex; flex-direction: row; color: rgb(212, 205, 205); justify-content: space-between; margin-top: 90px; margin-left: 100px; margin-right: 100px; font-family: 'Mulish';">
-        <div>Terms and Conditions &#8226; Privacy Policy</div>
-        <div>&#169;   Copyright 2022 Jumia Food is a registered trademark</div>
+    </section>
+
+    <!--APPS -->
+    <section>
+      <div class="order-food">
+        <div class="order-food-text">
+          <div class="order-food-text1">Order food</div>
+          <div class="order-food-text2">
+            The Jumia Food app makes it simple for anybody to use a mobile
+            device to look over the menu of the best vendors and place an order
+            for home delivery.
+          </div>
+          <div class="app-button">
+            <button><img src="Image Assets/apple.svg" alt="" /></button>
+            <button><img src="Image Assets/android.svg" alt="" /></button>
+          </div>
+        </div>
+        <div class="food-app">
+          <img
+            class="food-app-mockup"
+            src="Image Assets/jumia-food-app-mockup.png"
+            alt=""
+          />
+        </div>
       </div>
-    </div>
-    
-    
+    </section>
 
-    <div class="support"> Agent Offline</div>
+    <!-- FOOTER -->
+    <section>
+      <div class="footer">
+        <div class="footer-list">
+          <ul style="list-style: none; color: white">
+            <li>City</li>
+            <li>Lagos</li>
+            <li>Abuja</li>
+            <li>Ibadan</li>
+            <li>Port Harcourt</li>
+            <li>Lekki Phase 1</li>
+            <li>Victoria Island</li>
+            <li>Yaba</li>
+            <li>Marina</li>
+            <li>Wuse II</li>
+            <li>Maitama</li>
+            <li>Ikoyi - Dolphin Estate</li>
+            <li>Supermarket Online</li>
+            <li>Pharmacy Online</li>
+            <li>Shopping Online</li>
+          </ul>
+          <ul style="list-style: none; color: white">
+            <li>Cuisines</li>
+            <li>Burgers in Lagos</li>
+            <li>Pizza in Lagos</li>
+            <li>Nigerian Food in Lagos</li>
+            <li>African food in Lagos</li>
+            <li>Chinese Food in Lagos</li>
+            <li>Indian Food in Lagos</li>
+            <li>American Food in Lagos</li>
+            <li>Seafood in Lagos</li>
+            <li>Breakfast Menu in Lagos</li>
+            <li>Cakes in Lagos</li>
+            <li>Sandwiches in Lagos</li>
+            <li>Salads in Lagos</li>
+            <li>Pasta in Lagos</li>
+            <li>African Food in Abuja</li>
+            <li>Sandwiches in Abuja</li>
+            <li>Salads in Abuja</li>
+            <li>Nigerian Food in Abuja</li>
+          </ul>
+          <ul style="list-style: none; color: white">
+            <li>Popular vendors</li>
+            <li>Shiro</li>
+            <li>Bambo Lounge</li>
+            <li>Cilantro Delivery</li>
+            <li>Bungalow Restaurant</li>
+            <li>Chicken Capitol</li>
+            <li>Chicken Republic</li>
+            <li>Casper & Gambini's</li>
+            <li>Johnny Rockets</li>
+            <li>Drumstix</li>
+            <li>Seven Eagles Spur</li>
+            <li>Hard Rock Cafe</li>
+            <li>Eric Kayser</li>
+            <li>Kohinoor Lounge</li>
+            <li>Krispy Kreme Doughnuts & Coffee</li>
+            <li>Crepaway</li>
+            <li>Debonairs Pizza</li>
+            <li>KFC delivery</li>
+            <li>The Place</li>
+            <li>Bukka Hut</li>
+            <li>Pizza Hut</li>
+            <li>Cold Stone Creamery</li>
+            <li>Rhapsody's</li>
+            <li>Spice Route</li>
+            <li>355 Restaurant & Louge Landmark</li>
+            <li>China wok</li>
+            <li>Terra Kulture</li>
+            <li>All restaurants near me</li>
+          </ul>
+          <ul style="list-style: none; color: white">
+            <li>Jumia Food</li>
+            <li>About</li>
+            <li>Press</li>
+            <li>Contact</li>
+            <li>Terms and conditions</li>
+            <li>Privacy Policy</li>
+            <li>Jumia Food Prime - Unlimited Free Delivery</li>
+            <li>Become a rider!</li>
+            <li>Sell on Jumia Food</li>
+            <li>vendors</li>
+          </ul>
+        </div>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            color: rgb(212, 205, 205);
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            padding-top: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family: 'Mulish';
+          "
+        >
+          <div>Terms and Conditions &#8226; Privacy Policy</div>
+          <div>&#169; Copyright 2022 Jumia Food is a registered trademark</div>
+        </div>
+      </div>
 
+      <div class="support">Agent Offline</div>
+    </section>
   </body>
 </html>

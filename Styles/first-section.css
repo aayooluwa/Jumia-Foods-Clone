@@ -1,0 +1,448 @@
+
+@media screen and (min-width: 1408px){
+ 
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+
+  .left-splash, .right-splash{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .left-splash {
+    margin-left: -15px;
+    width: 115%;
+    margin-top: 80px;
+  }
+  
+  .column2 {
+    width: 50%;
+    object-fit: cover;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
+  .title {
+    font-family: 'Mulish';
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 100px;
+    line-height: 35px;
+    word-spacing: 4px;
+  }
+  
+  .title { 
+    width: auto;
+    text-align: center;
+  }
+  
+  .location {
+    margin-top: 50px;
+    display: flex;
+  }
+  
+  .location span {
+    color: rgb(255, 166, 0);
+  }
+  
+  .location {
+    font-size: 18px;
+  }
+  
+  .location img {
+    margin-right: 5px;
+  }
+  
+  .service {
+    margin-top: 25px;
+    width: 735px;
+  }
+
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+    margin-top: 20px;
+  }
+  
+  
+  .first {
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    box-shadow: 0 0 5px rgba(211, 211, 211, 0.71);
+  }
+
+  .first:hover {
+    border: solid;
+    border-color: rgb(5, 172, 83);
+    border-width: 1px;
+    cursor: pointer;
+  }
+  
+  .grid-content {
+    margin: 15px;
+  }
+  
+  .grid-image {
+    width: 50px;
+  }
+  
+  .grid-title {
+    font-family: 'Mulish';
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 4px;
+  }
+  
+  .grid-text {
+    font-size: 12px;
+    font-family: 'Mulish';
+    line-height: 18px;
+    
+    }
+
+}  
+
+@media screen and (min-width: 1024px) and (max-width: 1410px){
+    /* RESPONSIVE */
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 60px;
+    }
+  
+    .left-splash, .right-splash{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      
+    }
+    
+    .left-splash {
+      margin-left: -15px;
+      width: 115%;
+      margin-top: 80px;
+    }
+    
+    .column2 {
+      width: 75%;
+      object-fit: cover;
+      margin-left: 30px;
+      margin-right: 20px;
+    }
+    
+    /* SPLASH AND DESCRIPTONS */
+    
+    .title {
+      font-family: 'Mulish';
+      font-size: 40px;
+      font-weight: bolder;
+      margin-top: 100px;
+      line-height: 35px;
+      word-spacing: 4px;
+    }
+    
+    .title { 
+      width: auto;
+      text-align: center;
+    }
+    
+    .location {
+      margin-top: 50px;
+      display: flex;
+    }
+    
+    .location span {
+      color: rgb(255, 166, 0);
+    }
+    
+    .location {
+      font-size: 18px;
+    }
+    
+    .location img {
+      margin-right: 5px;
+    }
+    
+    .service {
+      margin-top: 25px;
+      width: 735px;
+    }
+    
+    
+    
+    /*  */
+    
+    
+    
+  
+    /* GRID */
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      row-gap: 25px;
+      column-gap: 25px;
+      margin-top: 20px;
+    }
+    
+    
+    .first {
+      border: solid;
+      border-color: white;
+      border-width: 1px;
+      box-shadow: 0 0 5px rgba(211, 211, 211, 0.71);
+    }
+    
+    .first:hover {
+      border: solid;
+      border-color: rgb(5, 172, 83);
+      border-width: 0.5px;
+      cursor: pointer;
+    }
+
+    .grid-content {
+      margin: 15px;
+    }
+    
+    .grid-image {
+      width: 50px;
+    }
+    
+    .grid-title {
+      font-family: 'Mulish';
+      color: rgb(255, 166, 0);
+      font-weight: bold;
+      margin-top: 3px;
+      margin-bottom: 4px;
+    }
+    
+    .grid-text {
+      font-size: 12px;
+      font-family: 'Mulish';
+      line-height: 18px;
+      
+      }
+
+      
+}
+
+@media screen and (min-width: 730px) and (max-width: 760px){
+  
+  .right-splash, .left-splash {
+    display: none;
+  }
+
+  .column2{
+    margin-left: 19px;
+  }
+
+  .row{
+    margin-top: 60px;
+  }
+  .title {
+    font-family: 'Mulish';
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 100px;
+    line-height: 35px;
+    word-spacing: 4px;
+  }
+  
+  .title { 
+    width: auto;
+    text-align: left;
+  }
+
+  .location {
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  .location span {
+    color: rgb(255, 166, 0);
+  }
+  
+  .location {
+    font-size: 16px;
+    font-family: 'Mulish';
+    font-weight: bold;
+  }
+  
+  .location img {
+    margin-right: 5px;
+  }
+  
+  .service {
+    margin-top: 25px;
+    width: 735px;
+  }
+
+
+  .column2 {
+    width: 97%;
+    object-fit: cover; 
+    margin-right: 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+    margin-top: 20px;
+  }
+  
+  
+  .first {
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    box-shadow: 0 0 5px rgba(211, 211, 211, 0.71);
+  }
+  
+  .first:hover {
+    border: solid;
+    border-color: rgb(5, 172, 83);
+    border-width: 0.5px;
+    cursor: pointer;
+  }
+
+  .grid-content {
+    margin: 15px;
+  }
+  
+  .grid-image {
+    width: 50px;
+  }
+  
+  .grid-title {
+    font-family: 'Mulish';
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 4px;
+  }
+  
+  .grid-text {
+    font-size: 12px;
+    font-family: 'Mulish';
+    line-height: 18px;
+    
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px){
+  
+  .right-splash, .left-splash {
+    display: none;
+  }
+
+  .column2{
+    margin-left: 19px;
+  }
+
+  .row{
+    margin-top: 60px;
+  }
+  .title {
+    font-family: 'Mulish';
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 100px;
+    line-height: 35px;
+    word-spacing: 4px;
+  }
+  
+  .title { 
+    width: auto;
+    text-align: left;
+  }
+
+  .location {
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  .location span {
+    color: rgb(255, 166, 0);
+  }
+  
+  .location {
+    font-size: 16px;
+    font-family: 'Mulish';
+    font-weight: bold;
+  }
+  
+  .location img {
+    margin-right: 5px;
+  }
+  
+  .service {
+    margin-top: 25px;
+    width: 735px;
+  }
+
+
+  .column2 {
+    width: 97%;
+    object-fit: cover; 
+    margin-right: 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+    margin-top: 20px;
+  }
+  
+  
+  .first {
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    box-shadow: 0 0 5px rgba(211, 211, 211, 0.71);
+  }
+  
+  .first:hover {
+    border: solid;
+    border-color: rgb(5, 172, 83);
+    border-width: 0.5px;
+    cursor: pointer;
+  }
+
+  .grid-content {
+    margin: 15px;
+  }
+  
+  .grid-image {
+    width: 50px;
+  }
+  
+  .grid-title {
+    font-family: 'Mulish';
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 4px;
+  }
+  
+  .grid-text {
+    font-size: 12px;
+    font-family: 'Mulish';
+    line-height: 18px;
+    
+    }
+}
+
